@@ -1,3 +1,7 @@
+/* * {
+	border: 1px solid black;
+} */
+
 .App {
   text-align: center;
 }
@@ -18,7 +22,20 @@
   font-size: large;
 }
 
+.container {
+	margin: 82px;
+}
+
+.list-group {
+	cursor: pointer;
+}
+
+.list-group li:hover {
+	background-color: #eee;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
